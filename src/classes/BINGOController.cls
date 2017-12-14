@@ -13,6 +13,9 @@
 global with sharing class BINGOController {
     
     private id myid;
+    private id myid2;
+    private id myid3;
+    private id myid5;
     public List<User> bingos {get; private set;}
     private List<User> allusers;
     private Set<Id> userids;
@@ -54,6 +57,10 @@ global with sharing class BINGOController {
      */
     
     public BingoController(){
+	    
+	    integer unusedVariable1 = 0;
+	    integer unusedVariable2 = 0;
+	    
         myid = UserInfo.getUserId();
         userids = new Set<Id>();
         // Users Following Me
