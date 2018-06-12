@@ -15,4 +15,11 @@ public class BadClass{
         string y = x > 0 ? 'asdf' : 'erre';
         system.debug(x);
 	}
+
+    public void terribleMethod(integer param) {
+        param = 1;
+        param = param;
+    }
+
+    
 }
