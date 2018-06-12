@@ -16,5 +16,8 @@ public class BadClass{
         system.debug(x);
 	}
 
-    
+    public void terribleMethod(integer param) {
+        param = 1;
+        param = param;
+    }
 }
