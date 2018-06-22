@@ -7,17 +7,16 @@ public class BadClass{
     private integer unusedVariable6 = 0;
     private integer unusedVariable6666 = 0;
 
-	public BadClass () {
+	public BadClass (Integer param) {
 		integer x = 1;
 		integer x2 = 1;
 		integer x23 = 1;
-        
+        param = 1;
         string y = x > 0 ? 'asdf' : 'erre';
         system.debug(x);
 	}
 
-    public void terribleMethod(integer param) {
-        param = 1;
-        param = param;
-    }
+    //Just a randm comment
+
+    public void terribleMethod(integer param) {}
 }
