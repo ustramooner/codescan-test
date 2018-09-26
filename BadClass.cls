@@ -11,7 +11,6 @@ public class BadClass{
 		integer x = 1;
 		integer x2 = 1;
 		integer x23 = 1;
-        param = 1;
         string y = x > 0 ? 'asdf' : 'erre';
         system.debug(x);
 	}
